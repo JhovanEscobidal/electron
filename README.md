@@ -6,7 +6,7 @@
 
 :memo: Available Translations: 🇨🇳 🇧🇷 🇪🇸 🇯🇵 🇷🇺 🇫🇷 🇺🇸 🇩🇪.
 View these docs in other languages on our [Crowdin](https://crowdin.com/project/electron) project.
-
+name : — JHOVAN D. ESCOBIDAL
 The Electron framework lets you write cross-platform desktop applications
 using JavaScript, HTML and CSS. It is based on [Node.js](https://nodejs.org/) and
 [Chromium](https://www.chromium.org) and is used by the
@@ -109,7 +109,8 @@ Info on reporting bugs, getting help, finding third-party tools and sample apps,
 and more can be found on the [Community page](https://www.electronjs.org/community).
 
 ## License
+****
+[MIT](https://github.com/electron/electron/blob/main/LICENSE).
 
-[MIT](https://github.com/electron/electron/blob/main/LICENSE)
-
-When using Electron logos, make sure to follow [OpenJS Foundation Trademark Policy](https://trademark-policy.openjsf.org/).
+When using Electron logos, make sure to follow [OpenJS Foundation Trademark Policy](https://trademark-policy.openjsf.org/). 
+name : — JHOVAN D. ESCOBIDAL.
