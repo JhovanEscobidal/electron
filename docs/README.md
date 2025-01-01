@@ -1,5 +1,4 @@
 # Official Guides
-
 Please make sure that you use the documents that match your Electron version.
 The version number should be a part of the page URL. If it's not, you are
 probably using the documentation of a development branch which may contain API
@@ -155,3 +154,4 @@ These individual tutorials expand on topics discussed in the guide above.
 ## Development
 
 See [development/README.md](development/README.md)
+*/ JHOVAN D ESCOBIDAL
