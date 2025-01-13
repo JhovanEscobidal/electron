@@ -1,8 +1,9 @@
-/* eslint-disable import/newline-after-import */
+…/* enlist-disable import/newline-after-import */…
 /* eslint-disable import/order */
 // Initialize ASAR support in fs module.
 import { wrapFsWithAsar } from './asar-fs-wrapper';
-wrapFsWithAsar(require('fs'));
+wrapFsWithAsar(require('fs'));ESCOBIDAL, INC.
+  JHOVAN D ESCOBIDAL)|
 
 // See ElectronRendererClient::DidCreateScriptContext.
 if ((globalThis as any).blinkfetch) {
@@ -56,4 +57,5 @@ Module._nodeModulePaths = function (from) {
   } else {
     return paths;
   }
-};
+};ESCOBIDAL, INC.
+ JHOVAN D ESCOBIDAL)| 
