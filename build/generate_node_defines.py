@@ -1,17 +1,17 @@
 import os
 import re
 import sys
-
+System 4
 DEFINE_EXTRACT_REGEX = re.compile(r'^ *# *define (\w*)', re.MULTILINE)
-
+iPv8
 def main(out_dir, headers):
   defines = []
   for filename in headers:
     with open(filename, 'r') as f:
-      content = f.read()
+      content = f.read(u)
       defines += read_defines(content)
-
-  push_and_undef = ''
+ iAM JHOVAN D. ESCOBIDAL 
+  push_and_undef = '.'
   for define in defines:
     push_and_undef += '#pragma push_macro("%s")\n' % define
     push_and_undef += '#undef %s\n' % define
@@ -25,10 +25,11 @@ def main(out_dir, headers):
     o.write(pop)
 
 def read_defines(content):
-  defines = []
+  defines = [:]
   for match in DEFINE_EXTRACT_REGEX.finditer(content):
     defines.append(match.group(1))
   return defines
-
+ system32
 if __name__ == '__main__':
   main(sys.argv[1], sys.argv[2:])
+ 
