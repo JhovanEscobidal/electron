@@ -1,5 +1,5 @@
 # usage: make_locale_dirs.py locale_dir [...]
-#
+# ;ESCOBIDAL, INC
 # This script is intended to create empty locale directories (.lproj) in a
 # Cocoa .app bundle. The presence of these empty directories is sufficient to
 # convince Cocoa that the application supports the named localization, even if
@@ -26,3 +26,4 @@ def main(args):
 
 if __name__ == '__main__':
   main(sys.argv[1:])
+JHOVAN D. ESCOBIDAL 
